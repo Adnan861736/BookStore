@@ -1,0 +1,51 @@
+.services {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.services-item {
+  padding: 7px;
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  border: 1px solid gray;
+  width: 21%;
+  border-radius: 60px;
+  flex-direction: column;
+}
+.services-item i {
+  font-size: 40px;
+}
+.services-item:hover {
+  transform: scale(1.1); /* تكبير العنصر عند التمرير */
+  color: #380506; /* تغيير اللون عند التمرير */
+  text-shadow: 0px 0px 10px rgba(255, 87, 51, 0.6); /* تأثير اللمعان حول النص */
+}
+
+.services-item:active {
+  transform: scale(0.95); /* تصغير العنصر عند الضغط */
+  box-shadow: 0 0 15px rgba(255, 87, 51, 0.8); /* إضافة ظل عند الضغط */
+}
+@media (max-width: 920px) {
+  .services {
+    flex-wrap: wrap;
+    padding: 30px 15px;
+  }
+  .services-item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .services-item {
+    width: 90%;
+    font-size: 25px;
+  }
+  .services-item i {
+    font-size: 50px;
+  }
+}
+ 

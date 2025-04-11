@@ -1,0 +1,210 @@
+.book {
+    padding: 30px;
+  }
+  
+  .book-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-img {
+    width: 30%;
+    height: 300px;
+    object-fit: contain;
+    padding: 20px;
+    box-shadow: 0 0 1px 2px snow;
+    border-radius: 7px;
+    background-color: snow;
+    margin-right: 20px;
+  }
+  
+  .book-content-info {
+    width: 60%;
+  }
+  
+  .book-title {
+    font-size: 32px;
+  }
+  
+  .book-author {
+    color: gray;
+    font-size: 21px;
+    margin: 15px 0;
+    font-weight: 600;
+  }
+  
+  .book-author span {
+    color: teal;
+  }
+  
+  .book-add-to-cart {
+    margin: 30px 0;
+  }
+  
+  .book-add-to-cart-input {
+    margin-right: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 25px;
+  }
+  
+  .book-cart-btn {
+    background-color: teal;
+    border: 1px solid green;
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+  }    .book-cart-btn:hover {
+    transform: scale(1.1); /* تكبير العنصر عند التمرير */
+    color: #ddd2d2; /* تغيير اللون عند التمرير */
+    text-shadow: 0px 0px 10px rgba(207, 203, 203, 0.6);  /* تأثير اللمعان حول النص */
+  }
+  
+  .book-cart-btn:active {
+    transform: scale(0.95); /* تصغير العنصر عند الضغط */
+    box-shadow: 0 0 15px rgba(237, 236, 236, 0.8); /* إضافة ظل عند الضغط */
+  }
+  
+  .book-description {
+    width: 80%;
+    font-size: 21px;
+    line-height: 1.8;
+  }
+  
+  .book-info-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .book-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+  }
+  
+  .book-icon i {
+    font-size: 25px;
+    color: #007bff;
+  }
+  
+  .icon-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .icon-text small {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .icon-text b {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  /* استعلامات الوسائط لتعديل التصميم على الشاشات الأصغر */
+  @media (max-width: 720px) {
+    .book-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .book-img {
+      width: 80%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .book-content-info {
+      width: 100%;
+    }
+  
+    .book-title {
+      font-size: 28px;
+    }
+  
+    .book-author {
+      font-size: 18px;
+    }
+  
+    .book-description {
+      width: 100%;
+      font-size: 18px;
+    }
+  
+    .book-info-icons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .book-icon {
+      font-size: 16px;
+    }
+  
+    .book-cart-btn {
+      font-size: 18px;
+      padding: 5px 15px;
+    }
+
+    .book-add-to-cart-input {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 520px) {
+    .book-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .book-img {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .book-content-info {
+      width: 100%;
+    }
+  
+    .book-title {
+      font-size: 24px;
+    }
+  
+    .book-author {
+      font-size: 16px;
+    }
+  
+    .book-description {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .book-info-icons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .book-icon {
+      font-size: 14px;
+    }
+  
+    .book-cart-btn {
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+  
+    .book-add-to-cart-input {
+      font-size: 18px;
+    }
+  }
+  

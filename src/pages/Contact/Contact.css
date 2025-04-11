@@ -1,0 +1,121 @@
+.contact {
+  min-height: calc(100vh - 250px);
+  padding: 30px;
+}
+.contact-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+}
+.contact-item {
+  width: 31%;
+  margin: 0 5px;
+}
+.contact-item-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #202755;
+}
+.cotent-item-text {
+  font-size: 21px;
+  color: #222;
+  text-align: center;
+  font-weight: 500;
+}
+.contact-form {
+  margin-top: 30px;
+}
+.contact-form-title {
+  text-align: center;
+}
+.contact-input-wrapper {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-input-wrapper input {
+  width: 31%;
+  height: 50px;
+  font-size: 21px;
+  padding: 5px 10px;
+  border: 2px solid #202755;
+}
+.contact-textarea {
+  width: 100%;
+  resize: none;
+  font-size: 21px;
+  padding: 10px;
+}
+.contact-textarea:hover {
+  border: 2px solid #202755;
+}
+.contact-btn {
+  background-color: #202755;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 15px;
+  font-size: 21px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+.contact-btn:hover {
+  transform: scale(1.1); /* تكبير العنصر عند التمرير */
+  color: #ddd2d2; /* تغيير اللون عند التمرير */
+  text-shadow: 0px 0px 10px rgba(207, 203, 203, 0.6); /* تأثير اللمعان حول النص */
+}
+.contact-btn:active {
+  transform: scale(0.95); /* تصغير العنصر عند الضغط */
+  box-shadow: 0 0 15px rgba(237, 236, 236, 0.8); /* إضافة ظل عند الضغط */
+}
+.contact-btn-wrapper {
+  display: flex;
+  margin-top: 15px;
+}
+@media (max-width: 720px) {
+  .contact {
+    padding: 30px 15px;
+  }
+  .contact-input-wrapper {
+    flex-wrap: wrap;
+  }
+  .contact-input-wrapper input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-item-icon {
+    font-size: 25px;
+  }
+}
+@media (max-width: 520px) {
+  .contact-wrappe {
+    flex-wrap: wrap;
+  }
+  .contact-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact {
+    padding: 30px 15px;
+  }
+  .contact-input-wrapper {
+    flex-wrap: wrap;
+  }
+  .contact-input-wrapper input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-item-icon {
+    font-size: 25px;
+  }
+}

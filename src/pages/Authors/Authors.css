@@ -1,0 +1,62 @@
+.authors {
+    padding: 30px;
+    background-color: #f9f9f9; /* إضافة لون خلفية لتوضيح الفصل */
+  }
+  
+  .authors-search-wrapper {
+    margin-bottom: 30px;
+  }
+  
+  .authors-search-wrapper input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 21px;
+    background-color: white; /* تحسين مظهر خانة البحث */
+  }
+  .authors-search-wrapper input:focus {
+    border-color: #007bff; 
+    outline: none; 
+  }
+  
+  .authors-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .author {
+    width: 300px; /* تعديل العرض لتناسب الأبعاد */
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للمؤلفين */
+    transition: transform 0.3s ease;
+  }
+  
+  .author:hover {
+    transform: scale(1.05); /* إضافة تأثير تكبير عند التمرير */
+  }
+  
+  .author-image {
+    width: 100%;
+    height: 200px; /* تعديل الارتفاع لتكون الصور متناسقة */
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  .author-name {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold; /* تحسين مظهر اسم المؤلف */
+  }
+  

@@ -1,0 +1,134 @@
+.form_event_wrapper {
+  width: 100%;
+  height: calc(100vh - 250px);
+  background: url("src/assets/pexels-apasaric-3629227.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-title {
+  font-size: 27px;
+  margin-bottom: 15px;
+  color: #28326f;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  position: relative;
+}
+.form input {
+  border: 2px solid #394592;
+  padding: 10px;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+.form input:focus {
+  outline: none;
+}
+.btn_form {
+  width: 100%;
+  background: #202755; /* خلفية زرقاء شفافة قليلاً */
+  color: white;
+  cursor: pointer;
+  border-radius: 60px;
+  padding: 7px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 17px;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn_form:hover {
+  background: rgb(21, 21, 82); /* عند التمرير، يصبح اللون أكثر وضوحاً */
+}
+.form-footer {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.show-password-icon {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  font-size: 21px;
+  color: #2c2d38;
+  z-index: 2;
+  cursor: pointer;
+}
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; /* مساحة لعين الباسوورد */
+}
+
+.show-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; /* مساحة للأيقونة */
+}
+
+.show-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; /* مساحة للأيقونة */
+}
+
+.show-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; /* مساحة للأيقونة */
+}
+
+.show-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}

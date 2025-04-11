@@ -1,0 +1,19 @@
+.Abouts {
+    height: calc(100vh-100px);
+    padding: 40px;
+  }
+  .Abouts h1 {
+    color: #222;
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+    border-bottom:  2px solid gray;
+    width: fit-content;
+    font-size: 40px;
+  }
+  .Abouts p{
+      font-size: 21px;
+      color: rgb(67, 66, 66);
+      margin: 10px;
+      font-weight: 500;
+  
+  }

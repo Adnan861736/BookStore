@@ -1,0 +1,160 @@
+.Footer {
+    padding: 20px 30px;
+    background-color: #1a2b49;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-item {
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2); /* خلفية شفافة قليلاً */
+    border-radius: 8px; /* إضافة زاوية مدورة */
+    transition: background-color 0.3s ease; /* تأثير على التفاعل */
+  }
+  
+  .footer-item:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* خلفية داكنة عند التفاعل */
+  }
+  
+  .footer-item-titel {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--main-color); /* لون العنوان */
+    border-bottom: 2px solid var(--main-color); /* خط سفلي تحت العنوان */
+    padding-bottom: 10px;
+  }
+  
+  .footer-item-list {
+    padding-left: 0;
+  }
+  
+  .footer-item-link {
+    display: block; /* تأكد من أن العناصر ستكون تحت بعضها */
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .footer-item-link:hover {
+    color: var(--main-color); /* تغيير اللون عند التفاعل */
+    text-decoration: underline;
+    transform: scale(1.05); /* تكبير الرابط عند التفاعل */
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 20px; /* زيادة المسافة بين الأيقونات */
+    align-items: center;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon i {
+    font-size: 32px;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* تكبير الأيقونة عند التفاعل */
+  }
+  
+  .icon:nth-child(1) {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+  }
+  
+  .icon:nth-child(2) {
+    background-color: #1877f2;
+    color: white;
+  }
+  
+  .icon:nth-child(3) {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .icon:nth-child(4) {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  .icon:nth-child(5) {
+    background-color: #ff0000; /* لون اليوتيوب */
+    color: white;
+  }
+  
+  .footer-cope {
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 720px) {
+    .Footer {
+      flex-direction: column;
+      gap: 20px; /* تقليل التباعد بين العناصر */
+    }
+  
+    @media (max-width: 520px) {
+        .Footer {
+          flex-direction: column;
+          gap: 20px; /* تقليل التباعد بين العناصر */
+        }}
+    .footer-item2 {
+      display: flex;
+      flex-direction: column; /* تغيير التوجه إلى عمودي عند الشاشات الصغيرة */
+      align-items: flex-start; /* محاذاة العناصر إلى اليسار */
+      gap: 20px;
+    }
+    .footer-social-media-text {
+     display: block;
+     padding: 10px; 
+      }
+  }
+  
+  .footer-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--main-color);
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-social-media-text {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .footer-item2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: stretch; /* ضمان أن جميع العناصر تمتد لتأخذ نفس الطول */
+
+    padding: 20px;
+    gap: 30px; /* المسافة بين الأعمدة */
+  }
+  
+  .footer-item2 .footer-item {
+    flex: 1; /* جعل الأعمدة تتوزع بالتساوي */
+  }
+  
